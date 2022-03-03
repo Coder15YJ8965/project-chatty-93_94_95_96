@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kwitter</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="chatty.css">
+<script src="chatty.js"></script>
+</head>
+<body>
+    <div class="row">
+        
+        <div class="column">
+            <button id="red_button"></button>
+            <button id="yellow_button"></button>
+            <button id="green_button"></button>
+            <center>
+                <div class="intro">
+                <img class="logo" src="pngtree-cartoon-chat-information-image_1422348.jpg">
+            </center>
+            
+            <br>
+            <label style="font-family: 'Poppins', sans-serif; color: rgb(255, 255, 255); font-size: 50px;">CHATTY</label>
+            <br>
+            <label style="color: rgb(168, 33, 231); font-size: 30px;">Let's chat !!!</label>
+        </div>
+        <div class="column2">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div"></div>
+            <img class="logo" src="images.png" id="log_in">
+                <h3> Sign In</h3>
+                <div class="form-group">
+                    <label id="user_n_label"> Enter a User Name:</label>
+                    
+                    <input type="text" id="user_name"  placeholder="User Name">
+                    <br>
+                    <button type="submit" id="login_button" onclick="addUser()">Log In</button>
+                </div>
+                </div>
+            </div>
+
+    </div>
+       
+</body>
